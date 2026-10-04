@@ -1,0 +1,1251 @@
+﻿/* =========================================================
+   GLOBAL RESPONSIVE
+========================================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .inner_header {
+        width: 100%;
+        padding: 20px 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .inner_header {
+        padding: 16px 20px;
+    }
+
+    .logo img {
+        max-width: 150px;
+    }
+
+    .header_right {
+        gap: 10px;
+    }
+
+    .outer_chat,
+    .outer_call {
+        padding: 9px 14px;
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .inner_header {
+        padding: 14px 15px;
+    }
+
+    .logo img {
+        max-width: 130px;
+    }
+
+    .header_right {
+        gap: 7px;
+    }
+
+    .outer_chat {
+        padding: 8px 10px;
+        gap: 6px;
+        font-size: 12px;
+    }
+
+    .outer_chat img {
+        width: 18px;
+    }
+
+    .outer_call {
+        padding: 8px 11px;
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .inner_header {
+        padding: 12px 10px;
+    }
+
+    .logo img {
+        max-width: 110px;
+    }
+
+    .outer_chat span {
+        display: none;
+    }
+
+    .outer_chat {
+        padding: 8px;
+    }
+
+    .outer_call {
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+}
+
+
+/* =========================================================
+   HERO SECTION
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .mid_section {
+        width: 100%;
+        padding: 0 30px;
+    }
+
+    .mid_section_left,
+    .mid_section_right {
+        width: 50%;
+    }
+
+    .section_heading {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    .mid_section_left p {
+        font-size: 19px;
+        line-height: 30px;
+    }
+
+    .mid_section_left li {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .mid_section {
+        width: 100%;
+        padding: 40px 25px;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    .mid_section_left,
+    .mid_section_right {
+        width: 100%;
+    }
+
+    .section_heading {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .mid_section_right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .form_box {
+        width: 100%;
+        max-width: 500px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .mid_section {
+        padding: 30px 16px;
+        gap: 25px;
+    }
+
+    .section_heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .mid_section_left p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-top: 12px;
+    }
+
+    .mid_section_left ul {
+        margin-top: 18px;
+    }
+
+    .mid_section_left li {
+        gap: 10px;
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 10px;
+    }
+
+    .mid_section_left li img {
+        width: 20px;
+        flex-shrink: 0;
+    }
+
+    .section1-left-row {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .section1-left-row button {
+        width: 100%;
+        flex-basis: auto;
+        padding: 14px 15px;
+    }
+
+    .btn {
+        justify-content: center;
+    }
+
+    .download {
+        font-size: 15px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .mid_section {
+        padding: 25px 12px;
+    }
+
+    .section_heading {
+        font-size: 27px;
+        line-height: 36px;
+    }
+
+    .mid_section_left p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .mid_section_left li {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .mid_section_left li img {
+        width: 18px;
+    }
+
+}
+
+
+/* =========================================================
+   HERO FORM
+========================================================= */
+
+@media (max-width: 600px) {
+
+    .form_box {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .form_box label {
+        font-size: 13px;
+    }
+
+    .form_box input,
+    .form_box select {
+        font-size: 13px;
+    }
+
+    .register_btn {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .form_box {
+        padding: 16px;
+    }
+
+}
+
+
+/* =========================================================
+   STATS SECTION
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .stats_section {
+        padding: 0 25px;
+    }
+
+    .stats_box {
+        width: 100%;
+    }
+
+    .stat_item h3 {
+        font-size: 22px;
+    }
+
+    .stat_item p {
+        font-size: 13px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .stats_box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 25px 15px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .stats_section {
+        padding: 0 15px;
+    }
+
+    .stats_box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+
+    .stat_item h3 {
+        font-size: 19px;
+    }
+
+    .stat_item p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .stats_box {
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        padding: 20px 10px;
+    }
+
+    .stat_item h3 {
+        font-size: 17px;
+    }
+
+    .stat_item p {
+        font-size: 11px;
+    }
+
+}
+
+
+/* =========================================================
+   KEY HIGHLIGHTS
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .highlights_section {
+        padding: 60px 25px;
+    }
+
+    .highlights_container {
+        width: 100%;
+    }
+
+    .highlight_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .highlights_section {
+        padding: 45px 16px;
+    }
+
+    .highlights_container h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .highlight_description {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .highlight_cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .highlight_card {
+        padding: 18px;
+    }
+
+    .highlight_icon {
+        flex-shrink: 0;
+    }
+
+    .highlight_content h3 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .highlight_content p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .book_free_class {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .highlights_section {
+        padding: 40px 12px;
+    }
+
+    .highlights_container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .highlight_card {
+        padding: 15px;
+    }
+
+}
+
+
+/* =========================================================
+   CAREER OPTIONS
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .career_section {
+        padding: 60px 25px;
+    }
+
+    .career_container {
+        width: 100%;
+    }
+
+    .career_cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .career_section {
+        padding: 45px 16px;
+    }
+
+    .career_container h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .career_subtitle {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .career_cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .career_card {
+        padding: 20px;
+    }
+
+    .career_icon img {
+        width: 40px;
+    }
+
+    .career_card h3 {
+        font-size: 16px;
+    }
+
+    .career_card p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .career_section {
+        padding: 40px 12px;
+    }
+
+    .career_container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+}
+
+
+/* =========================================================
+   GET CERTIFIED
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .certified_section {
+        padding: 60px 25px;
+    }
+
+    .certified_container {
+        width: 100%;
+        gap: 30px;
+    }
+
+    .certified_left,
+    .certified_right {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .certified_container {
+        flex-direction: column;
+    }
+
+    .certified_left,
+    .certified_right {
+        width: 100%;
+    }
+
+    .certified_right {
+        display: flex;
+        justify-content: center;
+    }
+
+    .certificate_image {
+        max-width: 500px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .certified_section {
+        padding: 45px 16px;
+    }
+
+    .certified_left h2 {
+        font-size: 28px;
+    }
+
+    .certified_desc {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .certified_card {
+        padding: 15px;
+        gap: 12px;
+    }
+
+    .certified_card h3 {
+        font-size: 15px;
+    }
+
+    .certified_card p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .free_class {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .certified_section {
+        padding: 40px 12px;
+    }
+
+    .certified_left h2 {
+        font-size: 24px;
+    }
+
+    .certified_card {
+        padding: 13px;
+    }
+
+}
+
+
+/* =========================================================
+   CURRICULUM
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .curriculum_section {
+        padding: 60px 25px;
+    }
+
+    .curriculum_container {
+        width: 100%;
+    }
+
+    .curriculum_tabs {
+        overflow-x: auto;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        padding-bottom: 8px;
+    }
+
+    .curriculum_tabs button {
+        flex-shrink: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .curriculum_content {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .curriculum_section {
+        padding: 45px 16px;
+    }
+
+    .curriculum_container h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .curriculum_desc {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .curriculum_tabs {
+        gap: 8px;
+        margin-top: 25px;
+    }
+
+    .curriculum_tabs button {
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+
+    .curriculum_item {
+        font-size: 13px;
+        line-height: 20px;
+        gap: 8px;
+    }
+
+    .curriculum_btn {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .curriculum_section {
+        padding: 40px 12px;
+    }
+
+    .curriculum_container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+}
+
+
+/* =========================================================
+   WHY LEARN DIGITAL MARKETING
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .why-learn {
+        padding: 60px 25px;
+    }
+
+    .why-learn .container {
+        width: 100%;
+    }
+
+    .why-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .why-learn {
+        padding: 45px 16px;
+    }
+
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .section-title p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .why-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 25px;
+    }
+
+    .why-card {
+        padding: 20px;
+    }
+
+    .why-card h3 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .why-card p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .why-button button {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .why-learn {
+        padding: 40px 12px;
+    }
+
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .why-card {
+        padding: 15px;
+    }
+
+}
+
+
+/* =========================================================
+   STUDENTS SECTION
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .student-section {
+        padding: 60px 25px;
+    }
+
+    .student-section .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+}
+
+@media (max-width: 900px) {
+
+    .student-cards {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .student-section {
+        padding: 45px 16px;
+    }
+
+    .student-heading {
+        margin-bottom: 25px;
+    }
+
+    .student-heading h2 {
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .student-heading p {
+        width: 100%;
+        max-width: 100%;
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .student-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .student-card {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .student-info {
+        gap: 12px;
+        margin-bottom: 15px;
+    }
+
+    .student-info img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .student-info h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .student-info span {
+        font-size: 11px;
+    }
+
+    .student-card > p {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .student-section {
+        padding: 40px 12px;
+    }
+
+    .student-heading h2 {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    .student-card {
+        padding: 16px;
+    }
+
+    .student-info img {
+        width: 42px;
+        height: 42px;
+    }
+
+    .student-info h3 {
+        font-size: 14px;
+    }
+
+    .student-card > p {
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+}
+
+
+/* =========================================================
+   READY TO START
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .ready-section {
+        min-height: 350px;
+    }
+
+    .ready-content {
+        padding: 60px 25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .ready-section {
+        min-height: 320px;
+    }
+
+    .ready-left,
+    .ready-right {
+        width: 35%;
+    }
+
+    .ready-content h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .ready-section {
+        min-height: 300px;
+        padding: 40px 16px;
+    }
+
+    .ready-left,
+    .ready-right {
+        width: 40%;
+        opacity: .6;
+    }
+
+    .ready-content {
+        padding: 30px 10px;
+    }
+
+    .ready-content h2 {
+        font-size: 26px;
+        line-height: 34px;
+    }
+
+    .ready-content p {
+        font-size: 13px;
+        line-height: 20px;
+        max-width: 450px;
+    }
+
+    .ready-content button {
+        width: 100%;
+        max-width: 250px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .ready-section {
+        min-height: 280px;
+    }
+
+    .ready-content h2 {
+        font-size: 23px;
+        line-height: 31px;
+    }
+
+    .ready-content p {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+}
+
+
+/* =========================================================
+   FAQ
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .faq-section {
+        padding: 60px 25px;
+    }
+
+    .faq-container {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .faq-section {
+        padding: 45px 16px;
+    }
+
+    .faq-container h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .faq-subtitle {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .faq-list {
+        margin-top: 25px;
+    }
+
+    .faq-question {
+        padding: 15px;
+        font-size: 13px;
+        gap: 10px;
+    }
+
+    .faq-answer {
+        padding: 0 15px 15px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .faq-icon {
+        flex-shrink: 0;
+    }
+
+    .book-btn {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .faq-section {
+        padding: 40px 12px;
+    }
+
+    .faq-container h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .faq-question {
+        padding: 13px;
+        font-size: 12px;
+    }
+
+    .faq-answer {
+        padding: 0 13px 13px;
+        font-size: 11px;
+        line-height: 19px;
+    }
+
+}
+
+
+/* =========================================================
+   COMPANIES
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .companies-section {
+        padding: 60px 25px;
+    }
+
+    .companies {
+        width: 100%;
+    }
+
+    .companies img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .companies-section {
+        padding: 45px 16px;
+    }
+
+    .companies-section h2 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .companies {
+        margin-top: 25px;
+        overflow-x: auto;
+    }
+
+    .companies img {
+        min-width: 600px;
+        max-width: none;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .companies-section {
+        padding: 40px 12px;
+    }
+
+    .companies-section h2 {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+@media (max-width: 1100px) {
+
+    .footer-container {
+        width: 100%;
+        padding: 40px 25px;
+    }
+
+    .footer-description {
+        max-width: 800px;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .footer-container {
+        padding: 35px 16px;
+        text-align: center;
+    }
+
+    .footer-logo img {
+        max-width: 150px;
+    }
+
+    .footer-description {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .footer-bottom {
+        padding: 15px;
+    }
+
+    .footer-bottom p {
+        font-size: 12px;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .footer-container {
+        padding: 30px 12px;
+    }
+
+    .footer-logo img {
+        max-width: 130px;
+    }
+
+    .footer-description {
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+}
+
+
+/* =========================================================
+   EXTRA SMALL DEVICES
+========================================================= */
+
+@media (max-width: 360px) {
+
+    .section_heading {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .stats_box {
+        gap: 8px;
+    }
+
+    .stat_item h3 {
+        font-size: 15px;
+    }
+
+    .stat_item p {
+        font-size: 10px;
+    }
+
+    .highlight_card,
+    .career_card,
+    .certified_card,
+    .why-card,
+    .student-card {
+        padding: 13px;
+    }
+
+    .curriculum_tabs button {
+        padding: 8px 10px;
+        font-size: 11px;
+    }
+
+    .ready-content h2 {
+        font-size: 21px;
+        line-height: 28px;
+    }
+
+    .faq-container h2 {
+        font-size: 22px;
+        line-height: 29px;
+    }
+
+}
